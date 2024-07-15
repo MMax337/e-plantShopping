@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import ProductList from './ProductList';
 import './App.css';
 import AboutUs from './AboutUs';
+import background from './assets/background_im.jpg'
 
 function App() {
   
@@ -15,7 +16,9 @@ function App() {
   return (
     <div className="app-container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>
-        <div className="background-image"></div>
+        <div className="background-image">
+          <img src={background} alt="" />
+        </div>
         <div className="content">
          <div className="landing_content">
          <h1>Welcome To Paradise Nursery</h1>
