@@ -28,21 +28,20 @@ background-color: lightgrey;
   justify-content: center;
   height: 100vh;
   width: 100vw;
- top: 100px;
+  top: 100px;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
+  margin-top: 430px; /* Adjust margin-top as needed */
+  margin-left: 125px; /* Adjust margin-left as needed */
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
-  width: 400px;
-  height: 400px;
+  width: 300px; /* Adjust width */
+  height: 400px; /* Adjust height */
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -111,6 +110,7 @@ background-color: lightgrey;
 .product-list-container.visible {
   top: 0;
 }
+
 /* LandingPage.css */
 @media screen and (max-width: 768px) {
   .content {
@@ -123,7 +123,7 @@ background-color: lightgrey;
   .landing_content {
     margin-top: 100px; /* Adjust as needed */
     margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
     text-align: center;
   }
 

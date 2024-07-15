@@ -16,14 +16,14 @@ body {
     color: #fff!important;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 20px;
 }
 
 .navbar .ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 1100px;
 }
@@ -181,11 +181,10 @@ body {
 .plant_heading{
     width: 400px;
     text-align: center;
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid rgb(5, 4, 4);
     border-left: none;
     border-right: none;
-
     
 }
 /* Add Media Query for responsiveness */
@@ -250,3 +249,5 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+
+
